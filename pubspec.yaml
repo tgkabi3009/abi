@@ -1,0 +1,57 @@
+name: absensi_guru
+description: Aplikasi mobile guru untuk sistem absensi & penggajian MTs (V.7 backend).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # HTTP & networking
+  dio: ^5.5.0
+  connectivity_plus: ^6.0.3
+
+  # State management
+  provider: ^6.1.2
+
+  # Secure storage & prefs
+  flutter_secure_storage: ^9.2.2
+  shared_preferences: ^2.3.1
+
+  # UI utilities
+  intl: ^0.19.0
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  pull_to_refresh: ^2.0.0
+
+  # Push notifications
+  firebase_core: ^3.6.0
+  firebase_messaging: ^15.1.3
+
+  # Utilities
+  package_info_plus: ^8.0.2
+  url_launcher: ^6.3.0
+  flutter_local_notifications: ^17.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - assets/images/
+  # Tambahkan assets directory bila ada file yang akan di-bundle (icon, logo, dll).
+  # Untuk app icon, gunakan flutter_launcher_icons (lihat README bagian 5).
+
+# flutter_launcher_icons dikonfigurasi terpisah — jalankan via
+# `dart run flutter_launcher_icons` setelah file icon tersedia di assets/icon/.
